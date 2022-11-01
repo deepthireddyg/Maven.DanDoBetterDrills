@@ -54,7 +54,7 @@ public class TestAddition {
         byte addedValue = 64;
         byte expected = 127;
         // : When
-        byte actual = mathUtils.add(baseValue, addedValue);
+        int actual = mathUtils.add(baseValue, addedValue);
         // : Then
         assertEquals(expected, actual);
     }

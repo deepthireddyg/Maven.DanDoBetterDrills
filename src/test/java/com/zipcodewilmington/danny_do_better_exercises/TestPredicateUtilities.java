@@ -13,8 +13,12 @@ public class TestPredicateUtilities {
     @Test
     public void testReturnTrue(){
         // : Given
+
+
         // : When
+
         // : Then
+
         assertTrue(predicateUtilities.returnTrue());
     }
 

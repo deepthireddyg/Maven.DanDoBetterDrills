@@ -56,7 +56,7 @@ public class TestDivision {
         byte divisor = 32;
         byte expectedByte = 2;
         // : When
-        byte actualByte = mathUtils.divide(dividend, divisor);
+        int actualByte = mathUtils.divide(dividend, divisor);
         // : Then
         assertEquals(expectedByte, actualByte);
     }
